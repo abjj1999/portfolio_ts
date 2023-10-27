@@ -10,10 +10,10 @@ export default function Navbar() {
   const [state, setState] = React.useState(false);
 
   const menus = [
-    { title: "Home", path: "/your-path" },
+    { title: "Home", path: "/" },
     { title: "Projects", path: "/projects" },
-    { title: "Contact", path: "/your-path" },
-    { title: "Resume", path: "/your-path" },
+    { title: "Contact", path: "/contact" },
+    { title: "Resume", path: "/resume" },
   ];
 
   return (
