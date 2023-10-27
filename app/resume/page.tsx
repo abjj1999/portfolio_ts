@@ -90,7 +90,7 @@ const Resume = () => {
                       Food?
                     </h3>
                     <p className="text-gray-500 dark:text-gray-400">
-                        I love to cook and eat all types of food. I love to try new foods and explore new flavors. But you can't go wrong with a good <span className="text-orange-600 dark:text-orange-500">Pizza </span>
+                        I love to cook and eat all types of food. I love to try new foods and explore new flavors. But you can nott go wrong with a good <span className="text-orange-600 dark:text-orange-500">Pizza </span>
                          <PizzaIcon className="w-5 h-5 mx-1 inline-block text-black dark:text-white" />.
                     </p>
                   </div>
@@ -106,7 +106,7 @@ const Resume = () => {
                       Books
                     </h3>
                     <p className="text-gray-500 dark:text-gray-400 flex flex-col">
-                        Books I've read recently:
+                        Books I have read recently:
                         <div className="ml-3">
                             - <span className="text-sky-600 dark:text-sky-500">The Alchemist</span> by Paulo Coelho
                         </div>

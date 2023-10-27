@@ -15,7 +15,7 @@ const ContactPage = () => {
             <Contact className="w-8 h-8 inline-block ml-2" />
           </h2>
           <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
-            I'm always open to discussing product design work or partnership
+            I am always open to discussing product design work or partnership
             opportunities. If you have a project that you want to get started,
             think you need my help with something or just fancy saying hey, then
             get in touch.
