@@ -1,5 +1,6 @@
 import { Wand2 } from "lucide-react";
-
+import { ProjectSingle } from "./_comps/project";
+import {projects} from "@/lib/projects"
 const ProjectsPage = () => {
   return (
     <div className=" ">
@@ -11,7 +12,17 @@ const ProjectsPage = () => {
           <Wand2 className="w-8 h-8 inline-block ml-2" />
         </h2>
         <div className="grid gap-x-6 lg:grid-cols-3">
-          
+            {
+              projects.map(({id, title, desc, tech, liveUrl, githubUrl, img}) => (
+                <ProjectSingle key={id} title={title}
+                desc={desc}
+                tech={tech}
+                liveUrl={liveUrl}
+                githubUrl={githubUrl}
+                img={img}
+                />
+              ))
+            }
           
           
         </div>
