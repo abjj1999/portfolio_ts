@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
 import { Contact, Github, Linkedin, Mail, Phone } from "lucide-react";
+import Link from "next/link";
 
 const ContactPage = () => {
   return (
@@ -81,30 +82,40 @@ const ContactPage = () => {
             Or reach out to me on social media
           </p>
         <div className="flex justify-center ">
-        <Button
+        <Link href="https://www.linkedin.com/in/abdullah-al-hilfi/">
+          <Button
             variant="ghost"
             className=" bg-transparent cursor-pointer hover:bg-primary/5 text-black  dark:text-white p-1 px-2 h-auto font-normal"
           >
             <Linkedin className="w-6 h-6" />
           </Button>
+
+        </Link>
+        <Link href="https://github.com/abjj1999" >
           <Button
             variant="ghost"
             className=" bg-transparent cursor-pointer hover:bg-primary/5 text-black  dark:text-white p-1 px-2 h-auto font-normal"
           >
             <Github className="w-6 h-6" />
           </Button>
+        </Link>
+        <Link href="mailto:abdullahalhilfi21@gmail.com">
           <Button
             variant="ghost"
             className=" bg-transparent cursor-pointer hover:bg-primary/5 text-black  dark:text-white p-1 px-2 h-auto font-normal"
           >
             <Mail className="w-6 h-6" />
           </Button>
+
+        </Link>
+        <Link href="tel:3468121212" >
           <Button
             variant="ghost"
             className=" bg-transparent cursor-pointer hover:bg-primary/5 text-black  dark:text-white p-1 px-2 h-auto font-normal"
           >
             <Phone className="w-6 h-6" />
           </Button>
+        </Link>
         </div>
     </div>
   );

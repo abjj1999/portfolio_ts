@@ -1,6 +1,7 @@
-import { Wand2 } from "lucide-react";
+import { Sparkle, Wand2 } from "lucide-react";
 import { ProjectSingle } from "./_comps/project";
 import {projects} from "@/lib/projects"
+import { Separator } from "@/components/ui/separator";
 const ProjectsPage = () => {
   return (
     <div className=" ">
@@ -26,6 +27,21 @@ const ProjectsPage = () => {
           
           
         </div>
+      <Separator />
+      <div className="mt-10">
+        <h2 className=" m-4 text-center text-xl font-semibold">
+          <Sparkle className="w-8 h-8 inline-block mr-2" />
+          More Ideas Coming Soon
+          <Sparkle className="w-8 h-8 inline-block ml-2" />
+        </h2>
+      </div>
+            <p className="text-center text-lg  text-neutral-600 dark:text-neutral-200 border bg-slate-200 rounded-xl p-4 dark:bg-slate-800">
+              I am always working on new ideas and projects. I will be adding them here as soon as they are ready. <br />
+              One of the idea is to build a <span className="font-semibold">Portfolio Builder</span> for college students.
+              <br />
+              <span className="font-semibold text-2xl underline">Stay Tuned!</span>
+
+            </p>
       </section>
     </div>
   );

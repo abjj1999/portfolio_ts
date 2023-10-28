@@ -8,6 +8,7 @@ import {
   MenubarTrigger,
 } from "./ui/menubar";
 import ModeToggle from "./mode-toggle";
+import Link from "next/link";
 
 
 export const NavDrop = () => {
@@ -29,27 +30,35 @@ export const NavDrop = () => {
           <MenubarSeparator />
           <MenubarItem>
           <div className=" w-full flex justify-between items-center">
+            <Link href="https://www.chess.com/member/jiujitsu1999">
             <p className="text-md">
                 Play Chess
             </p>
+            </Link>
             <Crown className="w-4 h-4 text-md ml-2" />
         </div>
           </MenubarItem>
           <MenubarSeparator />
           <MenubarItem>
           <div className=" w-full flex justify-between items-center">
+            <Link href="https://hangman-five-iota.vercel.app/">
             <p className="text-md">
                 Play Hangman
             </p>
+
+            </Link>
             <PersonStanding className="w-4 h-4 text-md ml-2" />
         </div>
           </MenubarItem>
           <MenubarSeparator />
           <MenubarItem>
           <div className=" w-full flex justify-between items-center">
+            <Link href="https://connect-four-liart.vercel.app/">
+
             <p className="text-md">
                 Play Connect 4
             </p>
+            </Link>
             <Gamepad2 className="w-4 h-4 text-md ml-2" />
             </div>
           </MenubarItem>

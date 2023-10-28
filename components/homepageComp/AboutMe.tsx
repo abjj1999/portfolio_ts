@@ -1,6 +1,7 @@
 import { ChevronRight } from "lucide-react";
 import { Button } from "../ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export const AboutMe = () => {
   return (
@@ -28,9 +29,12 @@ export const AboutMe = () => {
 
             </p>
             <Button variant="outline" className="mt-2 dark:text-white">
+              <Link href="/projects">
                 <p className="">
                     Check out my projects
                 </p>
+
+              </Link>
                 <ChevronRight className="w-6 h-6" />
             </Button>
           

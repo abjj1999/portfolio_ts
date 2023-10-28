@@ -1,5 +1,6 @@
 "use client";
 
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Circle, GithubIcon, Link2Icon, Projector } from "lucide-react";
@@ -38,11 +39,11 @@ export const ProjectSingle = ({title, desc, liveUrl, githubUrl, img, tech}: Proj
                 {title}
                 <Projector className="w-6 h-6 inline-block ml-2 text-rose-500" />
             </h5>
-            <div className="mb-4 flex items-center justify-center text-sm font-medium text-warning lg:justify-start">
+            <div className="mb-4 flex items-center justify-center flex-wrap text-sm font-medium text-warning lg:justify-start">
               {tech.map((item, idx) => (
-                <span key={idx} className="mr-2 bg-gray-500 dark:bg-gray-200 text-white dark:text-black p-1.5 text-sm font-semibold font-mono rounded-lg">
+                <Badge key={idx} className="mr-2  m-1 opacity-90 text-sm font-semibold font-mono ">
                   {item}
-                </span>
+                </Badge>
               )
               )}
 
@@ -52,7 +53,7 @@ export const ProjectSingle = ({title, desc, liveUrl, githubUrl, img, tech}: Proj
 
             </p>
             <Separator />
-            <div className="mt-2 flex items-center ">
+            <div className="mt-2 flex items-center justify-center">
               {/* buttons */}
               <Button variant="ghost" className="border flex items-center mr-2">
                 <Link href={liveUrl} className="flex items-center  text-lg">
