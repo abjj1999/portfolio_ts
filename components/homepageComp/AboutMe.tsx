@@ -12,22 +12,23 @@ export const AboutMe = () => {
             About Me
           </h2>
           <p className=" dark:text-white font-semibold gap-2 p-3 rounded-md font-epilogue text-[20px]">
-              My name is <span className="text-red-600">Abdullah </span> or{" "}
-              <span className="text-red-600">AB</span> . <br />I am a{" "}
-              <span className="text-blue-600">Full-Stack Developer </span>
-              from <span className="text-red-600">Houston, TX</span>. <br />I am
-              currently a <span className="text-blue-600">Student</span> at{" "}
-              <span className="text-red-600">University of Houston-Downtown</span>.{" "}
-              Studying <span className="text-blue-600">Computer Science</span>.
-              <br />I have a passion for{" "}
-              <span className="text-blue-600">Web Development</span> and{" "}
-              <span className="text-blue-600">Software Engineering</span>.{" "}
-              <br />I am currently working on achieving my{" "}
-              <span className="text-blue-600">AWS DEV certifcate</span>.<br />
-              I am also working on Developing new and exciting full stack
-              projects. <br />
-
-            </p>
+          My name is <span className="text-red-600">Abdullah </span> or{" "}
+          <span className="text-red-600">AB</span>. <br />
+          I am a <span className="text-blue-600">Full-Stack Developer </span>
+          from <span className="text-red-600">Houston, TX</span>. <br />
+          I have a <span className="text-blue-600">Bachelor's degree</span> from{" "}
+          <span className="text-red-600">The University of Houston-Downtown</span>{" "}
+          in <span className="text-blue-600">Computer Science</span>. <br />
+          I have professional experience working at{" "} <br/>
+          <span className="text-green-600">Paycom</span>{" "} <br/>
+          <span className="text-red-600">74 Degree</span>{" "}<br/>
+          <span className="text-blue-600">EdX</span> <br />
+          I have a passion for{" "}
+          <span className="text-blue-600">Web Development</span> and{" "}
+          <span className="text-blue-600">Software Engineering</span>. <br />
+          And I like Animals.{" "}
+          <br />
+          </p>
             <Button variant="outline" className="mt-2 dark:text-white">
               <Link href="/projects">
                 <p className="">

@@ -19,9 +19,10 @@ const Resume = () => {
         </h2>
         <div className="flex items-center justify-center">
           <a
-            href="#"
+            href="/resume.pdf"
             className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-200 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
             role="alert"
+            download
           >
             <span className="text-sm font-semibold bg-primary-600 rounded-full dark:text-white text-black px-3 py-1.5 mr-1">
               Download Resume
