@@ -16,7 +16,7 @@ export const AboutMe = () => {
           <span className="text-red-600">AB</span>. <br />
           I am a <span className="text-blue-600">Full-Stack Developer </span>
           from <span className="text-red-600">Houston, TX</span>. <br />
-          I have a <span className="text-blue-600">Bachelor's degree</span> from{" "}
+          I have a <span className="text-blue-600">Bachelor&apos;s degree</span> from{" "}
           <span className="text-red-600">The University of Houston-Downtown</span>{" "}
           in <span className="text-blue-600">Computer Science</span>. <br />
           I have professional experience working at{" "} <br/>
